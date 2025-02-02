@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  pomodoro:
+    build: .
+    ports:
+      - "8888:5000"
+    volumes:
+      - ./app:/app

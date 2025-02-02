@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Pomodoro Timer</h1>
+    <div class="container">
+        <div class="flex-container">
+            <!-- タスクリスト -->
+            <div>
+                <h2>Task List</h2>
+                <ul id="task-list"></ul>
+                <input type="text" id="new-task" placeholder="New Task">
+                <button id="add-task">Add Task</button>
+            </div>
+
+            <!-- タイマー -->
+            <div>
+                <h2>Timer</h2>
+                <p id="timer">25:00</p>
+                <button id="start-timer">Start</button>
+                <button id="reset-timer">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
